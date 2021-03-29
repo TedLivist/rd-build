@@ -49,6 +49,7 @@ body {
 
   .main-mobile {
     background-color: #fff;
+    padding: 0 10px;
   }
 
   .banner-1 {
@@ -68,6 +69,54 @@ body {
     height: 160px;
     background-repeat: no-repeat;
   }
+
+  .funding-details-mobile {
+    background-color: blue;
+  }
+
+  main {
+    padding: 0 5px;
+  }
+
+  .company-paddings {
+    padding-left: 95px;
+  }
+
+  .company-title {
+    height: 50px;
+    background-color: yellow;
+  }
+
+  #generic-title {
+    position: relative;
+    top: 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+  }
+
+  .funding-amount {
+    background-color: firebrick;
+    padding-top: 15px;
+  }
+
+  #amount {
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+
+  #series {
+    font-size: 0.75rem;
+    font-family: sans-serif;
+  }
+
+  .funding-details-mobile img {
+    position: relative;
+    top: 78px;
+    left: 20px;
+  }
+
+  
 }
 
 /* Tablet media query */
