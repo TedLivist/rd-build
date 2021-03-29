@@ -3,35 +3,35 @@ body {
   margin: 0;
 }
 
-/* Extra small devices (phones, 600px and down) */
+/* Mobile media query */
 @media only screen and (max-width: 600px) {
   body {
     background-color: red;
   }
 
-  .header-desktop {
+  #header-desktop {
     display: none;
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Tablet media query */
 @media only screen and (min-width: 601px) {
   body {
     background-color: blue;
   }
 
-  .header-mobile {
+  #header-mobile {
     display: none;
   }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
+/* Laptop and desktop media query */
 @media only screen and (min-width: 992px) {
   body {
     background-color: white;
   }
 
-  .header-mobile {
+  #header-mobile {
     display: none;
   }
 }
