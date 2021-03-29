@@ -46,6 +46,28 @@ body {
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
+
+  .main-mobile {
+    background-color: #fff;
+  }
+
+  .banner-1 {
+    background-image: url('images/bn-11.PNG');
+    height: 100px;
+    background-repeat: no-repeat;
+  }
+
+  .banner-2 {
+    background-image: url('images/bn-21.PNG');
+    height: 160px;
+    background-repeat: no-repeat;
+  }
+
+  .banner-3 {
+    background-image: url('images/bn-31.PNG');
+    height: 160px;
+    background-repeat: no-repeat;
+  }
 }
 
 /* Tablet media query */
