@@ -9,9 +9,6 @@ body {
 
 /* Mobile media query */
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: red;
-  }
 
   #header-desktop {
     display: none;
@@ -70,9 +67,30 @@ body {
     background-repeat: no-repeat;
   }
 
-  /* .funding-details-mobile {
-    background-color:white;
-  } */
+  #latest-funding-title {
+    margin-left: 15px;
+  }
+
+  #latest-title-link {
+    text-decoration: none;
+    color: #FF4422;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+  #other-links {
+    display: grid;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+
+  #other-links a {
+    padding: 5px 0;
+    text-decoration: none;
+    color: #ff4422;
+    font-family: sans-serif;
+  }
 
   .fund {
     padding: 15px;
@@ -133,7 +151,43 @@ body {
 
   main {
     padding: 0 5px;
-  }  
+  }
+
+  #sm-container {
+    padding: 50px 0;
+    background-color: #131313;
+  }
+
+  #social-media {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .events-link {
+    text-align: center;
+  }
+
+  .events-link a {
+    text-decoration: none;
+    color: grey;
+    font-family: 'Play', sans-serif;
+    font-size: 0.9rem;
+    margin: 0 5px;
+  }
+
+  #copyright {
+    padding: 20px 0;
+    background-color: #000000;
+  }
+
+  .footer-notes {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    margin: 5px 0;
+    color: grey;
+  }
+
 }
 
 /* Tablet media query */
